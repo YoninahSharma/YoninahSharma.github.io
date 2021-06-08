@@ -107,11 +107,12 @@ nav ul li a:hover {
 
 .main-text p{
     color: #747474;
+    text-align: justify;
 }
 
 .portfolio-btn,
 .recent-btn,
-.client-box a{
+.project-box a{
     width: 190px;
     height: 44px;
     display: flex;
@@ -125,7 +126,7 @@ nav ul li a:hover {
 
 .portfolio-btn:hover,
 .recent-btn:hover,
-.client-box a:hover,
+.project-box a:hover,
 .contact-input a:hover {
     background-color: #23cdaf;
     transition: all ease 0.2s;
@@ -227,7 +228,7 @@ nav ul li a:hover {
 }
 
 .recent-heading span,
-.client-heading span {
+.project-heading span {
     color: #36b7b5;
     font-weight: 500;
     text-transform: uppercase;
@@ -236,7 +237,7 @@ nav ul li a:hover {
 }
 
 .recent-heading h3,
-.client-heading h3,
+.project-heading h3,
 .contact h3 {
     color: #1c3548;
     font-size: 3rem;
@@ -259,7 +260,7 @@ nav ul li a:hover {
     margin-top: -20px;
 }
 
-.client {
+.project {
     width: 100%;
     border-top: 1px solid rgba(58, 58, 58, 0.03);
     border-bottom: 1px solid rgba(58, 58, 58, 0.03);
@@ -269,14 +270,14 @@ nav ul li a:hover {
     background-size: 1000px;
 }
 
-.client-heading {
+.project-heading {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.c-box-container {
+.p-box-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,7 +285,7 @@ nav ul li a:hover {
     margin: 20px 0px;
 }
 
-.client-box {
+.project-box {
     width: 310px;
     height: 350px;
     background-color: #FFFFFF;
@@ -298,14 +299,21 @@ nav ul li a:hover {
     box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-.client-box img {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    object-fit: cover;
+.project-box .microsoft{
+    width: 300px;
+    height: 60px;
+    /* border-radius: 50%; */
+    /* object-fit: cover; */
 }
 
-.client-box strong {
+.project-box .netflix{
+    width: 240px;
+    height: 90px;
+    /* border-radius: 50%; */
+    /* object-fit: cover; */
+}
+
+.project-box strong {
     color: #1c3548;
     margin: 0px;
     font-size: 1.1rem;
@@ -322,7 +330,7 @@ nav ul li a:hover {
     color: #ff9529;
 }
 
-.client-box p {
+.project-box p {
     color: #747474;
     font-size: 0.9rem;
     margin: 0px;
@@ -335,13 +343,13 @@ nav ul li a:hover {
     text-overflow: ellipsis;
 }
 
-.client-box a {
+.project-box a {
     width: 140px;
     margin-top: 20px;
     border-radius: 0px;
 }
 
-.client-box:hover {
+.project-box:hover {
     transform: translateY(-10px);
     box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
     transition: all ease 0.2s;
@@ -410,6 +418,9 @@ footer p {
     font-size: 00.9rem;
 }
 
+footer a {
+    margin-left: 10px;
+}
 nav .menu-btn{
     display: none;
 }
@@ -432,7 +443,7 @@ nav .menu-btn{
         width: 400px;
         height: 400px;
     }
-    .client-box {
+    .project-box {
         flex-grow: 0.5;
     }
 }
@@ -537,7 +548,7 @@ nav .menu-btn{
         object-position: left;
     }
     .recent-heading h3,
-    .client-heading h3,
+    .project-heading h3,
     .contact h3{
         font-size: 2.2rem;
         text-align: center;
