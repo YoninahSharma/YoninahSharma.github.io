@@ -319,6 +319,13 @@ nav ul li a:hover {
   object-fit: cover;
 }
 
+.project-box .bootstrap {
+  width: 240px;
+  height: 90px;
+  /* border-radius: 50%; */
+  object-fit: cover;
+}
+
 .project-box strong {
   color: #1c3548;
   margin: 0px;
