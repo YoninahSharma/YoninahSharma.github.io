@@ -77,6 +77,10 @@ nav ul li a:hover {
   object-fit: contain;
 }
 
+.profileimg{
+border-radius: 20px;
+}
+
 .model {
   width: 500px;
   height: 500px;
